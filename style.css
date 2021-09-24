@@ -1,0 +1,32 @@
+body{
+    background-image:linear-gradient(lightblue 0%,blue 50%,darkblue 100%);    
+}
+h1{
+    color: ivory;
+    font-weight: bold;
+}
+#show_sketch{
+    float:right;
+    font-size: 20px;
+}
+canvas{
+ border: 5px solid white;
+ border-radius: 20px;
+ animation-name: example;
+ animation-duration: 4s; 
+ margin-top: 70px;
+ animation-iteration-count: infinite;
+}
+@keyframes example {
+from{
+    box-shadow: 1px 1px 40px white;
+}
+to{
+box-shadow: 1px 1px 40px grey;
+}
+}
+p{
+    padding-top: 10px;
+    font-size: 20px;
+
+}
